@@ -13,7 +13,7 @@ let budgetController = (function () {
       this.percentage = Math.round((this.value / totalIncome) * 100);
     } else {
       this.percentage = -1;
-    }
+  }
   };
 
   Expense.prototype.getPercentage = function () {
